@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="password.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="generator-box">
+            <h1>Password Generator</h1>
+            <div class="output-boxes">
+                <div class="password">
+                    <p id="password">Select options or press generate</p>
+                </div>
+            </div>
+            <button class="btn generate" id="gen-pswd">Generate</button>
+            <div class="selections">
+                <div class="options">
+                    <h2>Options</h2>
+                    <input type="checkbox" id="numbers" checked>
+                    <label for="numbers">Numbers</label>
+                    <input type="checkbox" id="capitals" checked>
+                    <label for="capitals">Capitals</label>
+                    <input type="checkbox" id="symbols" checked>
+                    <label for="symbols">Symbols</label>
+                </div>
+                <div class="length">
+                    <h2>Length</h2>
+                    <input type="range" id="length-slider" min="8" max="24" value="19">
+                    <label for="length" id="slider-label">19</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

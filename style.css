@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333341;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 12.5px;
+}
+
+.generator-box {
+    background-color: #333341;
+    text-align: center;
+    padding: 1px;
+    width: 900px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password {
+    background-color: #333341;
+    border-radius: 5px;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-content: center;
+    display: inline-block;
+    box-shadow: inset 0 0 20px #1f1f24;
+}
+
+#password {
+    float: left;
+    margin: 0;
+}
+
+#password {
+    cursor: pointer;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.generate {
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 35px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.length {
+    margin-left: 37.5px;
+}
+
+.options {
+    margin-right: 37.5px;
+}
